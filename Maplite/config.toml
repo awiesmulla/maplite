@@ -1,0 +1,24 @@
+map = "maps/factory.png"
+fd_table = "fd_tables/fd_factory.csv"
+
+extent = [-450,201,-450,100]
+parent_dir = "./../Datasets/"
+dataset_dir = "factory/factory/"
+
+rest = 4200
+dt = 0.01
+synchronize = [712, 192]
+start = [702, 950]
+
+sigma_u = [[0.7, 0.0, 0.0], [0.0, 0.7, 0.0], [0.0, 0.0, 0.7]]
+P = [[0.07, 0.0, 0.0], [0.0, 0.07, 0.0], [0.0, 0.0, 0.07]]
+R = [[0.01, 0.0, 0.0], [0.0, 0.01, 0.0], [0.0, 0.0, 0.01]]
+G = [[0.01, 0.0, 0.0], [0.0, 0.01, 0.0], [0.0, 0.0, 1.0]]
+F = [[1, 0, 0], [0, 1, 0], [0, 0, 0]]
+H = [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+
+road_width = 20
+b = 2
+d_theta = 0.1
+variance = 20
+sample_number = 0
