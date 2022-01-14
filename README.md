@@ -8,3 +8,5 @@ Localising UGV using wheel odometry, IMU, LiDAR and sparse topometric map. Algor
 
 ## Index
 
+- Maplite -> Source code for the algorithm and few test cases
+- Maplite-KITTI -> Implemented Maplite on KITTI Datasets
