@@ -9,6 +9,7 @@ To run maplite you would need a topometrric map (sparse graph-like map consistin
 You can adjust the required parameter in `config.toml`.  
 `lidar_prep.py` is used to preprocess the LiDAR pointcloud such that we can segment the roads in the pointcloud.  
 Use `map_generate.py ` to convert the topometric map to road map and vice-versa.  
+`utilities.py` consists of various supplementary blocks like High Pass Filter, Low Pass Filter etc.  
 
 ## Usage
 
