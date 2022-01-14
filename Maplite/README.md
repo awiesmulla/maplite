@@ -16,3 +16,10 @@ Run the following to plan a path between the coordinates on a map mentioned in c
 
     python3 astar.py
     
+To combine the IMU and wheel encoder data for pose of vehicle using Extended Kalman Filter run 
+
+    python3 process_model.py
+
+To localize using Maplite run the following  
+
+    python3 maplite.py
